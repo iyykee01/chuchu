@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Aller;
+    src: url("/Aller/Aller_Bd.ttf");  
+    font-weight:400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f7f7f5;
+    font-family: Aller, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #bf3743;
+}
+
+p {
+    color: #d44246;
+    font-size: 1.5em;
+}
+
+#container {
+    height: 100%;
+}
+
+#div1 {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#img{
+    width: auto;
+    height: 100%;
+    background-image: url("/img/c.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#div2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#content_holder{
+    height: 50%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 25%; 
+}
+
+.contents{
+    width: 96%;
+    position: relative;
+    left: 2%;
+}
+
+#inputs{
+    position: relative;
+    top: 2%;
+}
+
+input{
+    font-family: Aller;
+    color: #b0afb0;
+    font-size: 1.2em;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d44246;
+}
+
+#btn{
+    background: #d44246;
+    font-family: Aller;
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 35%;
+    border-radius: 5px;
+    background: linear-gradient(left, #c31871, #d44246);
+    background: -webkit-linear-gradient(left, #c31871 , #d44246); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c31871, #d44246); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c31871, #d44246); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c31871 , #d44246); /* Standard syntax */
+}
+
+.clear {
+    clear: both;
+}
