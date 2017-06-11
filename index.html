@@ -4,49 +4,59 @@
         <meta name="veiwport" content="width=device-width, initial-scale=1.0">
         <title>Chu's Project</title>
 	    <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script
+              src="https://code.jquery.com/jquery-3.2.1.min.js"
+              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+              crossorigin="anonymous">
+        </script>
     </head>
     
     <body>
         
-        <!--This is the container Div
-        @css #container-->
-        <div id="container">
-            
-            <!--This div holds the contents on the left-hand-side
-            @css #div1-->
-            <div id="div1">
-                <div id="img"></div>
-            </div>
-            
-            <!--This div holds the contents on the right-hand
-            @css div2-->
-            <div id="div2">
+        <div class="window-popup">
+            <div class="content">
                 
-                <!--@css content_holder/contents-->
-                <div id="content_holder">
-                    <div class="contents">
-                        <h1>Exciting Offers</h1>
-                        <p>Subscribe to our newletters for amazing deals.</p>
+                <!--This div holds the contents on the left-hand-side
+                @css #div1-->
+                <div id="div1">
+                    <div id="img"></div>
+                </div>
+
+                <!--This div holds the contents on the right-hand
+                @css div2-->
+                <div id="div2">
+
+                    <!--@css content_holder/contents-->
+                    <div id="content_holder">
+                        <div class="contents">
+                            <h1>Exciting Offers</h1>
+                            <p>Subscribe to our newletters for amazing deals.</p>
+                        </div>
+
+
+                        <div class="contents" id="inputs">
+                            <input type="text" placeholder="Name"/>
+                            <br>
+                            <input type="text" placeholder="Enter your email address"/>
+                            <br>
+
+                            <input id="btn" type="button" value="Submit"/>
+
+
+                        </div>
+
+
                     </div>
-                    
-                    <div class="contents" id="inputs">
-                        <input type="text" placeholder="Name"/>
-                        <br>
-                        <input type="text" placeholder="Enter your email address"/>
-                        <br>
-                        
-                        <input id="btn" type="button" value="Submit"/>
-                        
-                        
-                    </div>
-                
-                    
+                    <!--<a href="#" id="close"></a>-->
+
                 </div>
             </div>
         </div>
         
+        
         <div class="clear"></div>
         
-        
+        <!--<script type="text/javascript" src="popup.js"></script>-->
     </body>
 </html>
